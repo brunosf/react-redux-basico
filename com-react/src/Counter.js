@@ -3,8 +3,9 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 
 /**
- *
  * Componente stateless recebendo o ESTADO e AÇÕES através de PROPS
+ * Pode-se usar desestruturação no parametro do component
+ * const Counter = ({ counter, handleDecrement, handleIncrement }) => {}
  */
 const Counter = props => {
   console.log("CONTEM EM PROPS:", props);
